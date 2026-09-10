@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+backend/myenv/
+.venv/
+
+# Django secrets and local files
+.env
+backend/job_tracker/.env
+staticfiles/
+media/
+
+# Frontend dependencies and builds
+frontend/job_tracker/node_modules/
+frontend/job_tracker/dist/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
